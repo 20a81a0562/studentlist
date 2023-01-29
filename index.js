@@ -8,7 +8,7 @@ const StudentList = () => {
     return (<>
     <section>
     {Students.map((student) => {
-        return <StudentShow {...student} key={student.id}/>
+        return <StudentShow {...student} key={student.id}/><br/>
     })}
       </section>  
     </>);
